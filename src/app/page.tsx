@@ -3,18 +3,10 @@ import Image from "next/image";
 export default function Home() {
   return (
   <>
-  <main className=" w-full">
-  <section className="bg-(--foreground) w-full h-full">
-    <h1 className="flex flex">merida</h1>
+  <main>
+  <section className="bg-[black] flex items-center justify-center w-full h-[100vh]">
+    <h1 className="text-[white] text-5x1">client side e server side</h1>
     </section>
-
-  <section>
-
-  </section>
-
-  <section>
-
-  </section>
   </main>
   </>
   );

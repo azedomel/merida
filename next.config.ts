@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+ image: {
+  remotePatters: [{protocol: "https", hostname: "rickandmortyapi.com"}]
+ }
 };
 
 export default nextConfig;
